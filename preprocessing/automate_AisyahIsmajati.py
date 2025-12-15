@@ -58,6 +58,6 @@ def preprocess_diabetes_data(input_path, output_dir):
 
 if __name__ == "__main__":
     preprocess_diabetes_data(
-        input_path="../diabetes_raw.csv",
+        input_path="diabetes_raw.csv",
         output_dir="../diabetes_preprocessing"
     )
